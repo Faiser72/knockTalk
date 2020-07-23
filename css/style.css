@@ -1,0 +1,186 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar {
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+    background-color: transparent !important;
+}
+
+.navbar {
+    background-color: white;
+    padding: 0 !important;
+}
+
+.head {
+    background-image: url('/Assets/Rectangle\ 61.png');
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #000000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: black;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.headPart {
+    width: 60%;
+    float: right;
+}
+
+.contentMain {
+    padding-top: 10%;
+}
+
+.mainTitOne {
+    font-weight: 800;
+    color: #359736;
+    font-size: 50px;
+}
+
+.mainTitTwo {
+    font-weight: 800;
+    color: #E6862F;
+    font-size: 50px;
+}
+
+.FirstCont {
+    background-image: url('/Assets/newFlag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blob {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    width: 65%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.95);
+    }
+}
+
+.mainCard {
+    border-top-left-radius: 50px !important;
+    border-left: 2px solid black !important;
+}
+
+.cardOneTit {
+    font-weight: 500;
+    color: black;
+    font-weight: 25px;
+}
+
+.buletin {
+    width: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.comingTit {
+    color: purple;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#formSec {
+    padding: 50px 0;
+}
+
+.mainTitThree {
+    font-weight: 800;
+    color: #359736;
+    font-size: 40px;
+}
+
+.mainTitNote {
+    font-weight: 600;
+    color: orange;
+    font-size: 20px;
+}
+
+.cardOneTit {
+    font-weight: 600;
+    font-size: 18px;
+    color: orange;
+}
+
+.registerBut {
+    background-color: orange !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.registerBut:hover {
+    background-color: green !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+#formThree {
+    padding: 80px 0;
+}
+
+#formFour {
+    padding: 17px 0;
+}
+
+.formCont {
+    border-radius: 20px;
+    border: 4px solid orange;
+}
+
+.mainTitFive {
+    font-weight: 500;
+    font-size: 25px;
+    color: orange;
+}
+
+.contact {
+    background-image: url('/Assets/newFlag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    border: 1px solid orange !important;
+}
+
+label {
+    font-weight: bold;
+}
+
+#pageSix {
+    padding: 20px 0;
+}
+
